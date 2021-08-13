@@ -3,20 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "start:dev": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Antonymous0/smartbrain-api.git"
+    "start:dev" : "nodemon server.js"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Antonymous0/smartbrain-api/issues"
-  },
-  "homepage": "https://github.com/Antonymous0/smartbrain-api#readme",
+  "license": "ISC",  
   "dependencies": {
     "bcrypt": "^5.0.1",
     "bcrypt-nodejs": "^0.0.3",
@@ -29,3 +22,5 @@
     "nodemon": "^2.0.12"
   }
 }
+
+
